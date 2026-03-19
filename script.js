@@ -8,8 +8,8 @@ const OR_APP_TITLE   = "Apex Mind AI";
 const OR_HTTP_REFERER = (typeof window !== "undefined" && window.location && window.location.origin)
   ? window.location.origin : "https://localhost";
 
-const MODELS      = ["openrouter/healer-alpha"];
-const VISION_MODEL = "openrouter/healer-alpha";
+const MODELS      = ["nvidia/nemotron-3-super-120b-a12b:free"];
+const VISION_MODEL = "nvidia/llama-nemotron-embed-vl-1b-v2:free";
 
 // Anthropic API for Study Planner (Claude Sonnet)
 const ANTHROPIC_PLANNER_MODEL = "claude-sonnet-4-20250514";
