@@ -9,7 +9,7 @@ const OR_HTTP_REFERER = (typeof window !== "undefined" && window.location && win
   ? window.location.origin : "https://localhost";
 
 const MODELS      = ["nvidia/nemotron-3-super-120b-a12b:free"];
-const VISION_MODEL = "nvidia/llama-nemotron-embed-vl-1b-v2:free";
+const VISION_MODEL = "sourceful/riverflow-v2-max-preview";
 
 // Anthropic API for Study Planner (Claude Sonnet)
 const ANTHROPIC_PLANNER_MODEL = "claude-sonnet-4-20250514";
